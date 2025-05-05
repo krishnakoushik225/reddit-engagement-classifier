@@ -70,7 +70,7 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 
 - **Macro F1-Score used to account for slight class imbalance**
 
-Visualized confusion matrix and model performance
+- **Visualized confusion matrix and model performance**
 
 # 🚀 Getting Started
 
