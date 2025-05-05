@@ -6,70 +6,69 @@ This project analyzes Reddit posts to predict engagement trends — classifying 
 
 This repository contains a master's-level project on predicting Reddit post engagement trends using hybrid NLP and structured features. The objective is to classify Reddit posts into three engagement categories:
 
-Up: High engagement
+- **Up**: High engagement
+- **Down**: Low engagement
+- **Stable**: Medium/normal engagement
 
-Down: Low engagement
-
-Stable: Medium/normal engagement
 
 The classification is based on metadata such as Tags, Subreddit, and Domain using advanced language modeling and tree-based classifiers.
 
 
 # 📂 Dataset
 
-Source: Kaggle — Predicting Reddit Community Engagement Dataset
+- **Source**: Kaggle — Predicting Reddit Community Engagement Dataset
 
-Features Used:
+- **Features Used**:
 
-Tags, Domain, Subreddit: Used for textual context
+  - Tags, Domain, Subreddit: Used for textual context
 
-Score, NumComments, NumCommenters: Used to generate engagement labels and as numeric features.
+  - Score, NumComments, NumCommenters: Used to generate engagement labels and as numeric features.
 
 
 # 🧠 Methodology
 
 1. Data Preprocessing
 
-Merged text from Tags, Domain, and Subreddit
+- **Merged text from Tags, Domain, and Subreddit**
 
-Cleaned using Huggingface tokenizer-compatible minimal regex
+- **Cleaned using Huggingface tokenizer-compatible minimal regex**
 
-Engagement labels created from Score:
+- **Engagement labels created from Score:**
 
-Up = Score ≥ 10
+  - Up = Score ≥ 10
 
-Down = Score ≤ -5
+  - Down = Score ≤ -5
 
-Stable = Otherwise
+  - Stable = Otherwise
 
 2. Feature Engineering
 
-Textual Embeddings: Sentence-BERT (all-MiniLM-L6-v2)
+- **Textual Embeddings: Sentence-BERT (all-MiniLM-L6-v2)**
 
-Structured Features: NumComments, NumCommenters
+- **Structured Features: NumComments, NumCommenters**
 
-Combined into a hybrid feature vector
+- **Combined into a hybrid feature vector**
 
 3. Modeling
 
-Model Used: XGBoost Classifier
+- **Model Used: XGBoost Classifier**
 
-Tuning: Hyperparameter optimization using Optuna
+- **Tuning: Hyperparameter optimization using Optuna**
 
-Evaluation Metrics:
+- **Evaluation Metrics:**
 
-Accuracy
+  - Accuracy
 
-Macro F1-Score
+  - Macro F1-Score
 
-Confusion Matrix
+  - Confusion Matrix
 
 
 # 🧪 Results
 
-Achieved high classification performance on the test set
+- **Achieved high classification performance on the test set**
 
-Macro F1-Score used to account for slight class imbalance
+- **Macro F1-Score used to account for slight class imbalance**
 
 Visualized confusion matrix and model performance
 
@@ -83,11 +82,11 @@ pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplo
 
 # Running the Notebook
 
-Open SMM_Final_Project_latest.ipynb in Google Colab or Jupyter
+1. Open SMM_Final_Project_latest.ipynb in Google Colab or Jupyter
 
-Upload Reddit_Data.csv (tab-separated)
+2. Upload Reddit_Data.csv (tab-separated)
 
-Run all cells sequentially
+3. Run all cells sequentially
 
 # 📈 Sample Visuals
 Confusion matrix heatmap
@@ -97,15 +96,7 @@ Class distribution bar chart
 
 # 👨‍💻Contributors
 
-Krishna Koushik Unnam, 
-
-Venkata Sai Sudarsana Varma Mandapati,
-
-Kalyan Gutta,
-
-Sai Murali Ravuri
-
-Sudharshan Varma 
+Krishna Koushik Unnam, Venkata Sai Sudarsana Varma Mandapati, Kalyan Gutta, Sai Murali Ravuri
 
 University of South Florida
 
