@@ -2,7 +2,7 @@
 This project analyzes Reddit posts to predict engagement trends — classifying whether a post will receive high (Up), low (Down), or moderate (Stable) user interaction. We use metadata like Tags, Domain, and Subreddit from a Kaggle dataset and apply Sentence-BERT embeddings combined with structured features like comment counts.
 
 
-# Overview
+# 📘 Overview
 
 This repository contains a master's-level project on predicting Reddit post engagement trends using hybrid NLP and structured features. The objective is to classify Reddit posts into three engagement categories:
 
@@ -15,7 +15,7 @@ Stable: Medium/normal engagement
 The classification is based on metadata such as Tags, Subreddit, and Domain using advanced language modeling and tree-based classifiers.
 
 
-# Dataset
+# 📂 Dataset
 
 Source: Kaggle — Predicting Reddit Community Engagement Dataset
 
@@ -26,7 +26,7 @@ Tags, Domain, Subreddit: Used for textual context
 Score, NumComments, NumCommenters: Used to generate engagement labels and as numeric features.
 
 
-# Methodology
+# 🧠 Methodology
 
 1. Data Preprocessing
 
@@ -65,7 +65,7 @@ Macro F1-Score
 Confusion Matrix
 
 
-# Results
+# 🧪 Results
 
 Achieved high classification performance on the test set
 
@@ -73,7 +73,7 @@ Macro F1-Score used to account for slight class imbalance
 
 Visualized confusion matrix and model performance
 
-# Getting Started
+# 🚀 Getting Started
 
 Requirements
 
@@ -89,13 +89,13 @@ Upload Reddit_Data.csv (tab-separated)
 
 Run all cells sequentially
 
-# Sample Visuals
+# 📈 Sample Visuals
 Confusion matrix heatmap
 
 Class distribution bar chart
 
 
-# Contributors
+# 👨‍💻Contributors
 
 Krishna Koushik Unnam, 
 
