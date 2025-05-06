@@ -29,41 +29,41 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 
 # 🧠 Methodology
 
-1. Data Preprocessing
+1. **Data Preprocessing**
 
-- **Merged text from Tags, Domain, and Subreddit**
+    - Merged text from Tags, Domain, and Subreddit
 
-- **Cleaned using Huggingface tokenizer-compatible minimal regex**
+    - Cleaned using Huggingface tokenizer-compatible minimal regex
 
-- **Engagement labels created from Score:**
+    - Engagement labels created from Score:
 
-  - Up = Score ≥ 10
+        - Up = Score ≥ 10
 
-  - Down = Score ≤ -5
+        - Down = Score ≤ -5
 
-  - Stable = Otherwise
+        - Stable = Otherwise
 
-2. Feature Engineering
+2. **Feature Engineering**
 
-- **Textual Embeddings: Sentence-BERT (all-MiniLM-L6-v2)**
+    - Textual Embeddings: Sentence-BERT (all-MiniLM-L6-v2)
 
-- **Structured Features: NumComments, NumCommenters**
+    - Structured Features: NumComments, NumCommenters
 
-- **Combined into a hybrid feature vector**
+    - Combined into a hybrid feature vector
 
-3. Modeling
+3. **Modeling**
 
-- **Model Used: XGBoost Classifier**
+    - Model Used: XGBoost Classifier
 
-- **Tuning: Hyperparameter optimization using Optuna**
+    - Tuning: Hyperparameter optimization using Optuna
 
-- **Evaluation Metrics:**
+    - Evaluation Metrics:
 
-  - Accuracy
+        - Accuracy
 
-  - Macro F1-Score
+        - Macro F1-Score
 
-  - Confusion Matrix
+        - Confusion Matrix
 
 
 # 🧪 Results
@@ -76,11 +76,11 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 
 # 🚀 Getting Started
 
-Requirements
+- **Requirements**
 
-Install required libraries:
+    - Install required libraries:
 
-pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplotlib seaborn
+      ```pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplotlib seaborn```
 
 # Running the Notebook
 
