@@ -119,6 +119,8 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 - **Industry-wise Trend Heatmap**
 
     -  Description: Heatmap displaying trends across different industries (Culture, Education, Finance, etc.) and its engagement classification.
+
+      
     ![Alt text](InduTrndDistri.jpeg)
 
 - **Industry Trend Distribution**
