@@ -89,9 +89,38 @@ pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplo
 3. Run all cells sequentially
 
 # 📈 Sample Visuals
-Confusion matrix heatmap
+- **Topic Frequency Trends in Culture Industry**
 
-Class distribution bar chart
+    -  Description: Visualizes the frequency of topics in the "Culture" industry over time.
+
+- **Trend Distribution Across Categories**
+
+    -  Description: Bar plot showing the distribution of post trends (Up, Down, Stable).
+
+- **Topic Frequency Trends in Education Industry**
+
+    -  Description: Visualizes the frequency of topics in the "Education" industry over time.
+
+- **Topic Frequency Trends in Finance Industry**
+
+    -  Description: Visualizes the frequency of topics in the "Finance" industry over time.
+
+- **Topic Frequency Trends in Entertainment Industry**
+
+    -  Description: Visualizes the frequency of topics in the "Entertainment" industry over time.
+
+- **Industry-wise Trend Heatmap**
+
+    -  Description: Heatmap displaying trends across different industries (Culture, Education, Finance, etc.) and their engagement classifications.
+
+- **Industry Trend Distribution**
+
+    -  Description: Bar plot showing the distribution of trends across different industries.
+
+
+- **Confusion matrix heatmap**
+
+    -  Class distribution bar chart
 
 
 # 👨‍💻Contributors
