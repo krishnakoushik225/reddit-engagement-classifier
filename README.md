@@ -18,6 +18,8 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 
 - **Source**: Kaggle — Predicting Reddit Community Engagement Dataset
 
+- **Link**: https://www.kaggle.com/datasets/datancoffee/predicting-reddit-community-engagement-dataset/data
+
 - **Features Used**:
 
   - Tags, Domain, Subreddit: Used for textual context
