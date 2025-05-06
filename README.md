@@ -117,7 +117,7 @@ pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplo
 - **Industry-wise Trend Heatmap**
 
     -  Description: Heatmap displaying trends across different industries (Culture, Education, Finance, etc.) and their engagement classifications.
-
+    ![Alt text](InduTrndDistri.jpeg)
 
 - **Industry Trend Distribution**
 
