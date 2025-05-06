@@ -133,7 +133,7 @@ The classification is based on metadata such as Tags, Subreddit, and Domain usin
 
 # 👨‍💻Contributors
 
-Krishna Koushik Unnam, Venkata Sai Sudarsana Varma Mandapati, Kalyan Gutta, Sai Murali Ravuri
+Krishna Koushik Unnam, Venkata Sai Sudarsana Varma Mandapati, Kalyan Gutta, Murali Sai Ravuri
 
 University of South Florida
 
