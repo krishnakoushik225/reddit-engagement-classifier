@@ -92,26 +92,32 @@ pip install sentence-transformers xgboost scikit-learn pandas tqdm optuna matplo
 - **Topic Frequency Trends in Culture Industry**
 
     -  Description: Visualizes the frequency of topics in the "Culture" industry over time.
+    ![Alt text](![Alt text](TopicFrequencyTrendsInCultureIndustry.jpeg)
 
 - **Trend Distribution Across Categories**
 
     -  Description: Bar plot showing the distribution of post trends (Up, Down, Stable).
+    ![Alt text](TrendDistributionAcrossCategories.jpeg)
 
 - **Topic Frequency Trends in Education Industry**
 
     -  Description: Visualizes the frequency of topics in the "Education" industry over time.
+    ![Alt text](TpicFreqTrndsInEduInd.jpeg)
 
 - **Topic Frequency Trends in Finance Industry**
 
     -  Description: Visualizes the frequency of topics in the "Finance" industry over time.
+    ![Alt text](TopicFrequencyTrendsInFinanceIndustry.jpeg)
 
 - **Topic Frequency Trends in Entertainment Industry**
 
     -  Description: Visualizes the frequency of topics in the "Entertainment" industry over time.
-
+    ![Alt text](TopicFreqTrendsInEntertainInd.jpeg)
+    
 - **Industry-wise Trend Heatmap**
 
     -  Description: Heatmap displaying trends across different industries (Culture, Education, Finance, etc.) and their engagement classifications.
+
 
 - **Industry Trend Distribution**
 
